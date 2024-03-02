@@ -1,10 +1,18 @@
 package object1;
 
-import java.util.logging.Logger;
+//import java.util.Scanner;
+//import java.util.logging.Logger;
 
 public class Main {
 
     public static void main(String... args) {
-        Logger logger=Logger.getLogger(Main.class.getName());
-        logger.info("This is a module-using Hello World!");    }
+        { //constructor for person class
+            //Scanner myObj = new Scanner(System.in); //created scanner object for person > main
+            int height = 182;
+            System.out.println(height);
+
+            System.out.println("Person is: " + height);
+
+        }
+    }
 }
